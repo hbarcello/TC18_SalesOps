@@ -1,4 +1,4 @@
-# TC18 Tableau on Tableau - SalesOps
+# TC18 Tableau on Tableau - Optimizating Sales Territories with Tableau
 
 ***Required elements for script***
 
