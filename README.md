@@ -1,4 +1,4 @@
-# TC18 Tableau on Tableau - Optimizating Sales Territories with Tableau
+# TC18 Tableau on Tableau - Optimizing Sales Territories with Tableau
 
 ***Required elements for script***
 
