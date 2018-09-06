@@ -3,7 +3,7 @@
 # Author : Hunter Barcello
 # Email : hbarcello@tableau.com
 # Git : hbarcello
-# Last Edit Date : 09-05-2018
+# Last Edit Date : 09-06-2018
 # Created For : Tableau Territory Alignment
 ###########################################
 
@@ -20,16 +20,14 @@
 library("flexclust")
 
 
-unit_cluster <- function(file_location, number_territories, output_location, seed=1980, from_prep=TRUE){
+unit_cluster <- function(file_location, number_territories, output_location, seed=2003, from_prep=TRUE){
 
 #Set random seed for repeatable results
 set.seed(seed)  
+#To Handle Tableau Prep CSV Outputs
+main.df <- read.csv(file_location, fileEncoding="UTF-8-BOM")
 
-#Prep CSVs currently using some tab delimiting
-if(from_prep==TRUE){  
-main.df <- read.csv(file_location, sep="\t")
-}
-  else{main.df <- read.csv(file_location)}
+#Need logic to preserve leading zeroes for Key field
 
 
 #Guess territory target size by using Index : Territory ratio
@@ -124,7 +122,7 @@ colnames(output.df) <- c("CentroidX", "CentroidY", "State", "Key", "Index", "Clu
 
 
   {
-  write.csv(output.df, output_location)
+  write.csv(output.df, output_location, row.names=FALSE)
 
   }
 
