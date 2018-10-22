@@ -13,5 +13,5 @@ Longitude
 
 "Index" (The value you want to optimize for)
 
-Link to Justin's Tableau Public dashboard
+*Link to Justin's Tableau Public dashboard
 
