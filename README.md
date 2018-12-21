@@ -14,9 +14,10 @@ Longitude
 "Index" (The value you want to optimize for)
 
 <h5>Link to Justin's Tableau Public dashboard</h5>
-https://public.tableau.com/profile/justin.kruger#!/vizhome/2018_10_15_TC18_Build/ManagerReviewTerritoryBuilder
+https://public.tableau.com/profile/justin.kruger#!/vizhome/2018_10_15_TC18_Build/ManagerReviewTerritoryBuilder  
 
-<br>
+
+
 If you are looking for geographic data for other countries besides the US you might find this page to be a helpful resources
 http://download.geonames.org/export/zip/
 
