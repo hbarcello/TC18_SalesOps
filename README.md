@@ -1,4 +1,10 @@
 # TC18 Tableau on Tableau - Optimizing Sales Territories with Tableau
+--------------------------------------------------------------------------------------------------------------------------
+You probably want to go here <br>
+https://github.com/hbarcello/TC19_TableauSalesOps <br>
+for the most up to date repo and code
+--------------------------------------------------------------------------------------------------------------------------
+
 
 ***Required elements for script***
 (Names must match - they are case sensitive too!)
